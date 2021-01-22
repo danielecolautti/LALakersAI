@@ -1,5 +1,39 @@
 # LALakersAI
 An iOS app that uses a CoreML model to take informations about Los Angeles Lakers' players.
 
-### To Do
-Unzip the model and copy it into LALakersAI/Utils/
+## CoreML Model
+The model used by the app is YOLOv3 trained using 2230 images (1775 train and 445 test) of Los Angeles Lakers' highlights.
+
+## Citations
+Model: [YOLOv3](https://pjreddie.com/darknet/yolo/)
+
+Similar app used to develop this application: [YOLOv3-CoreML](https://github.com/Ma-Dan/YOLOv3-CoreML)
+
+## Before Building the App
+Unzip the first element contained in zippedModel folder and copy the unzipped .mlmodel file into LALakersAI/Utils/
+
+## Example Images
+
+### Model Output
+
+<img src="/images/00200_y.jpg" width="75%" height="75%">
+
+### Live Detection
+
+<img src="/images/detection.PNG" width="25%" height="25%">
+
+### Statistics
+
+<img src="/images/statistics.PNG" width="25%" height="25%">
+
+### Line Up
+
+<img src="/images/lineUp.PNG" width="25%" height="25%">
+
+### Successful Shot by Anthony Davis
+
+<img src="/images/davis.PNG" width="25%" height="25%">
+
+### Settings
+
+<img src="/images/settings.PNG" width="25%" height="25%">
